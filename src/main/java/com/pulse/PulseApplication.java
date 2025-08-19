@@ -1,4 +1,4 @@
-package com.pulse.pulse;
+package com.pulse;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,8 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class PulseApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(PulseApplication.class, args);
-	}
-
-}
+    public static void main(String[] args) {
+        SpringApplication.run(PulseApplication.class, args);
+    }
+} 
